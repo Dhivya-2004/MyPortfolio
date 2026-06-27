@@ -33,9 +33,9 @@ export default function Footer() {
           {/* Social links */}
           <div className="flex items-center gap-3">
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:divya@example.com", label: "Email" },
+              { icon: Github, href: "https://github.com/dashboard", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/divya-m2130", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:divyamsk21@gmail.com", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}

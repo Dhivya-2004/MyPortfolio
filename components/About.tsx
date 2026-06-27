@@ -118,7 +118,7 @@ export default function About() {
                   <div className="space-y-3">
                     <Badge variant="skill" className="text-xs">
                       <Calendar className="w-3 h-3 mr-1" />
-                      2020 – 2024
+                      2021 – 2025
                     </Badge>
 
                     <h4 className="text-lg font-semibold font-display">
